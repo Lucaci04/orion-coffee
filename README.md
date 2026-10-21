@@ -1,8 +1,30 @@
 # Orion Coffee
 
+![Prima pagină, desktop](docs/screenshots/acasa-desktop.jpg)
+
 Site de prezentare pentru o cafenea de cartier.
 
 > Proiect demonstrativ. Firma, adresa, telefoanele, emailurile și recenziile sunt fictive. Orice asemănare cu o firmă reală este întâmplătoare.
+
+## Capturi de ecran
+
+| Prima pagină, telefon | Meniul pe telefon |
+|---|---|
+| <img src="docs/screenshots/acasa-mobil.jpg" alt="Prima pagină, telefon" width="220"> | <img src="docs/screenshots/meniu-mobil.jpg" alt="Meniul pe telefon" width="220"> |
+
+## Tehnologii
+
+HTML, CSS și JavaScript simplu.
+
+## Decizii tehnice
+
+- Design minimal, cu puține elemente, ca să se încarce aproape instant pe telefon.
+- Harta se încarcă doar la cerere, iar politica de confidențialitate explică de ce.
+- Include `sitemap.xml`, `robots.txt` și date structurate JSON-LD.
+- Butonul „Copiază adresa” pune adresa în clipboard, util pentru aplicațiile de navigație.
+- Accesibilitate: link „Sari la conținut”, mesaje anunțate cititoarelor de ecran (aria-live), focus vizibil la navigarea cu tastatura.
+- Animațiile se reduc sau se opresc pentru cine a setat „reducerea mișcării” în sistem (`prefers-reduced-motion`).
+- Imaginile din afara ecranului se încarcă abia când e nevoie de ele (`loading="lazy"`).
 
 ## Rulare
 
